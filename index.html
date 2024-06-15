@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- START NAV -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey, I am Sarad</h1>
+      <p>a web developer</p>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="projects-grid">
+        <a id="profile-link" target=_blank 
+          href="https://sarad-lab.github.io/Cafe_menu/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://www.waratahgolfclub.com.au/wp-content/uploads/2023/03/Menu-2023.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Cafe Menu
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://sarad-lab.github.io/skyline/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://t3.ftcdn.net/jpg/00/75/57/20/360_F_75572075_UuZ7zsBIbgQBCq194Tizq2mPx5m7o9h9.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            SKYLINE
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://sarad-lab.github.io/NutritionLabel/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="data:image/png;base64,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"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">Nutrition Label</span>
+            </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/sharma.sirjit.71"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          href="mailto:sharmasirjit@gmail.com"
+          class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:+61415366529" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+      <p>
+        Created by Sarad
+      </p>
+      <p>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+  </body>
+</html>
